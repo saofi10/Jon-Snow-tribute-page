@@ -1,0 +1,139 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jon Snow</title>
+</head>
+<body>
+    <main id="main">
+        <h1 id="title">Jon Snow</h1>
+        <p class="subtitle">The Lord Commander of the Night's Watch</p>
+ 
+        <figure id="img-div" class="background-figure">
+            <img id='image' src="https://upload.wikimedia.org/wikipedia/commons/2/29/Jon_Snow_and_Ghost.jpg" alt="Jon Snow and Ghost">
+            <figcaption id="img-caption">Jon Snow, standing aside Ghost, a white direwolf, his loyalest friend.</figcaption>
+        </figure>
+        
+        <fieldset class="history">
+            <h2 id="tribute-info">Jon Snow's Successes</h2>
+            <ul>
+                <li><span class="bold">Bastard of Winterfell</span> (Book 1 - "A Game of Thrones"): Jon Snow begins his journey as the illegitimate son of Eddard Stark, Lord of Winterfell.</li>
+                <li><span class="bold">Joining the Night's Watch</span> (Book 1 - "A Game of Thrones"): Jon chooses to join the Night's Watch, seeking a life of honor and purpose.</li>
+                <li><span class="bold">Friendship with Samwell Tarly</span> (Book 1 - "A Game of Thrones"): Jon forms a close friendship with Samwell Tarly and helps him integrate into the Night's Watch.</li>
+                <li><span class="bold">Defending Castle Black</span> (Book 3 - "A Storm of Swords"): Jon plays a vital role in the defense of Castle Black during the wildlings' attack, earning respect and leadership among his fellow members.</li>
+                <li><span class="bold">Becoming Lord Commander</span> (Book 3 - "A Storm of Swords"): After the death of Lord Commander Jeor Mormont, Jon is elected as the new Lord Commander of the Night's Watch.</li>
+                <li><span class="bold">Negotiating with Stannis Baratheon</span> (Book 5 - "A Dance with Dragons"): Jon negotiates with Stannis Baratheon and secures his aid in defending the Wall against the wildlings.</li>
+                <li><span class="bold">Forming Alliances Beyond the Wall</span> (Book 5 - "A Dance with Dragons"): Jon builds relationships with various wildling leaders, including Tormund Giantsbane, as he seeks to integrate them into the realm to face the threat of the Others (White Walkers).</li>
+                <li><span class="bold">Confronting the Others</span> (Book 5 - "A Dance with Dragons"): Jon takes the initiative to confront the threat beyond the Wall and ventures into dangerous territory to learn more about the Others and their capabilities.</li>
+                <li><span class="bold">Death and Resurrection</span> (Book 5 - "A Dance with Dragons"): Jon is betrayed and stabbed by his own men at Castle Black. His fate is left uncertain, but there are strong hints that he might be resurrected.</li>
+    </ul>
+    <p class='quote'><i>"Love Is The Death Of Duty.</i>"</p><br>
+    <p class='squote'>-Jon Snow-</p>
+        </section>
+    
+
+    <footer>
+        <p class="footer">If you are willing to read more about GOT's best character, you can check its <a id="tribute-link" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fawoiaf.westeros.org%2Findex.php%2FJon_Snow&psig=AOvVaw0M_TXbAyFOGyMbK1bpMsjL&ust=1693431381400000&source=images&cd=vfe&opi=89978449&ved=0CBIQjhxqFwoTCPCDgdLpgoEDFQAAAAAdAAAAABAQ" target="_blank">Wiki.</a></p>
+    </footer>
+    </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para el encabezado */
+#main {
+  text-align: center;
+  padding: 00px;
+}
+
+#title {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #666;
+}
+
+/* Estilos para la imagen */
+.background-figure {
+  background-color: #6662;
+  padding: 20px;
+  text-align: center;
+  margin:0  0  20px 0;
+}
+
+.background-figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Estilos para la sección de historia */
+.history {
+  padding: 20px;
+  background-color: #f7f7f7;
+  margin: 0 auto;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.quote {
+  font-style: italic;
+  text-align: center;
+  margin-bottom:0;
+  margin-top:2rem;
+}
+li{
+  text-align:left;
+  margin:20px;
+}
+.squote {
+  text-align: right;
+  font-weight: bold;
+  color: #777;
+  padding-right: 12rem;
+  padding-top:0;
+  margin-top:0;
+}
+
+/* Estilos para el pie de página */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+ img{
+   display:block;
+   max-width:100%;
+   height:auto;
+   align-items: center;
+ }
+#tribute-link {
+  color: white;
+  text-decoration: none;
+}
+
+** end of undefined **
+
